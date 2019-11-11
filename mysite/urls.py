@@ -21,5 +21,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('player/', include('player.urls')),
     path('welcome', welcome),
-    path('', include('nailit.urls'))
 ]

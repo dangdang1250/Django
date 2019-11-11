@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'gameplay',  # app
     'player',
-    'nailit.apps.NailitConfig'  # WOOP inspired app
 ]
 
 MIDDLEWARE = [

@@ -20,3 +20,12 @@ python manage.py createsuperuser
 # run tests
 python manage.py test
 ```
+
+## How to remove an app in Django
+(How to remove an app in Django)[https://techstream.org/Bits/Remove-App-From-Django-Project]
+
+more steps:
+```shell
+# do a git clean
+git clean -dfx 
+```
